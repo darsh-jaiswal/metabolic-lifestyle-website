@@ -795,7 +795,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .about__name {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
   font-style: normal;
   font-size: 1.45em;
   color: var(--accent-green);
