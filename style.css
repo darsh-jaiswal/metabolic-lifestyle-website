@@ -170,12 +170,16 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .nav__logo {
-  font-family: var(--font-serif);
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--text-heading);
-  letter-spacing: -0.01em;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo-img {
+  height: 48px;
+  width: auto;
+  mix-blend-mode: multiply;
+  display: block;
 }
 
 .nav__links {
